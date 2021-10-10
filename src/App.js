@@ -42,7 +42,7 @@ function App() {
   // return <WindowSizeComponent />
   // return <MediaQueryComponent />
   // return <GeolocationComponent />
-  // return <StateWithValidationComponent />
+  return <StateWithValidationComponent />
   // return <SizeComponent />
   // return <EffectOnceComponent />
   // return <ClickOutsideComponent />

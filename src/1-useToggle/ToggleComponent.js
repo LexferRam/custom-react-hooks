@@ -2,6 +2,7 @@ import useToggle from "./useToggle"
 
 export default function ToggleComponent() {
   const [value, toggleValue] = useToggle(false)
+  console.log('render!')
 
   return (
     <div>
@@ -12,3 +13,4 @@ export default function ToggleComponent() {
     </div>
   )
 }
+ 
